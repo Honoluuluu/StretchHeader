@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CD69FE69221DBED00022F2F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69FE68221DBED00022F2F0 /* AppDelegate.swift */; };
-		CD69FE6B221DBED00022F2F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69FE6A221DBED00022F2F0 /* ViewController.swift */; };
+		CD69FE6B221DBED00022F2F0 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69FE6A221DBED00022F2F0 /* MainTableViewController.swift */; };
 		CD69FE6E221DBED00022F2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD69FE6C221DBED00022F2F0 /* Main.storyboard */; };
 		CD69FE70221DBED10022F2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD69FE6F221DBED10022F2F0 /* Assets.xcassets */; };
 		CD69FE73221DBED10022F2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD69FE71221DBED10022F2F0 /* LaunchScreen.storyboard */; };
+		CD69FE7B221DC0600022F2F0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69FE7A221DC0600022F2F0 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD69FE65221DBED00022F2F0 /* StretchMyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchMyHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD69FE68221DBED00022F2F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD69FE6A221DBED00022F2F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD69FE6A221DBED00022F2F0 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		CD69FE6D221DBED00022F2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD69FE6F221DBED10022F2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD69FE72221DBED10022F2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD69FE74221DBED10022F2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD69FE7A221DC0600022F2F0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				CD69FE68221DBED00022F2F0 /* AppDelegate.swift */,
-				CD69FE6A221DBED00022F2F0 /* ViewController.swift */,
+				CD69FE6A221DBED00022F2F0 /* MainTableViewController.swift */,
+				CD69FE7A221DC0600022F2F0 /* CustomTableViewCell.swift */,
 				CD69FE6C221DBED00022F2F0 /* Main.storyboard */,
 				CD69FE6F221DBED10022F2F0 /* Assets.xcassets */,
 				CD69FE71221DBED10022F2F0 /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD69FE6B221DBED00022F2F0 /* ViewController.swift in Sources */,
+				CD69FE7B221DC0600022F2F0 /* CustomTableViewCell.swift in Sources */,
+				CD69FE6B221DBED00022F2F0 /* MainTableViewController.swift in Sources */,
 				CD69FE69221DBED00022F2F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CJ99886F8U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = StretchMyHeader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CJ99886F8U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = StretchMyHeader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
